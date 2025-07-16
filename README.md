@@ -30,6 +30,11 @@ pip3 install -r requirements.txt
 python3 create_ecr_secret.py
 ```
 
+## Logging
+```bash
+export LOG_LEVEL=DEBUG
+```
+
 ## Setup K8s
 ```yaml
 apiVersion: v1
